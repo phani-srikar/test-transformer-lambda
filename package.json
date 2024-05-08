@@ -9,7 +9,7 @@
     "release": "rm -f test-lambda.zip && bestzip --force node ./test-lambda.zip ./*"
   },
   "dependencies": {
-    "@aws-amplify/graphql-transformer": "file:../../amplify-category-api/packages/amplify-graphql-transformer",
+    "@aws-amplify/graphql-transformer": "1.5.3",
     "aws-cdk-lib": "2.80.0",
     "constructs": "10.0.5"
   },
